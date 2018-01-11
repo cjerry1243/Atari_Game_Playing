@@ -1,9 +1,11 @@
 # Atari_Game_Playing
 Use policy gradient for pong and deep Q networks for breakouts
+
 Q network includes deep Q learning, double Q learning, and duel Q learning
 
 ## Reqiurements
 Keras==2.0.7
+
 Tensorflow==1.3
 
 ## Installation

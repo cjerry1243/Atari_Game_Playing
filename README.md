@@ -1,5 +1,10 @@
-# ADL HW3
-Please don't revise test.py, environment.py, agent_dir/agent.py
+# Atari_Game_Playing
+Use policy gradient for pong and deep Q networks for breakouts
+Q network includes deep Q learning, double Q learning, and duel Q learning
+
+## Reqiurements
+Keras==2.0.7
+Tensorflow==1.3
 
 ## Installation
 Type the following command to install OpenAI Gym Atari environment.
@@ -20,3 +25,6 @@ training DQN:
 
 testing DQN:
 * `$ python3 test.py --test_dqn`
+
+## Results
+Get an average of 5 points in pong and 73 points in breakouts.
